@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LinearLayoutActivity">
+
+    <Button
+        android:id="@+id/btnLinearToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="Toast"
+        android:textColor="@color/colorIcons"
+        android:textSize="8pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvLinearResult"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/colorIcons"
+        android:textSize="120pt" />
+
+    <Button
+        android:id="@+id/btnLinearCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Count"
+        android:textColor="@color/colorIcons"
+        android:textSize="8pt"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
